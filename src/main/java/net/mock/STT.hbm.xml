@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Oct 17, 2015 11:44:47 AM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+
+	<class name="net.mock.entity.STTEntity" table="sotamtru">
+
+		<id name="id_TamTru" type="java.lang.String">
+			<column name="id_tamtru" />
+		</id>
+		<property name="trangThai" type="java.lang.String">
+			<column name="trangthai" />
+		</property>
+		<property name="lyDo" type="java.lang.String">
+			<column name="lydo" />
+		</property>
+		<property name="ngayDi" type="date">
+			<column name="ngaydi" />
+		</property>
+		<property name="ngayVe" type="date">
+			<column name="ngayve" />
+		</property>
+
+		<many-to-one name="soCMND" column="socmnd"
+			class="net.mock.entity.CMNDEntity" not-null="true" />
+			
+		<many-to-one name="id_SHK" column="id_shk"
+			class="net.mock.entity.SoHoKhauEntity" not-null="true" />
+
+	</class>
+</hibernate-mapping>

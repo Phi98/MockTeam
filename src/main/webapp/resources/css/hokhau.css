@@ -1,0 +1,31 @@
+.hokhau-title h1 {
+    color: #00cbff;
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: 0.5px;
+  }
+ 
+  .hokhau-title__line {
+    width: 70px;
+    height: 3px;
+    background-color: black;
+  }
+  .hokhau__table td.diachi{
+    line-height: 50px;
+  }
+
+  @media screen  and (max-width: 440px) {
+   .hokhau__table tbody td,.hokhau__table thead th{
+       padding-left: 2px;
+       padding-right:2px;
+       font-size: 14px;
+   }
+   
+   .hokhau__table  td a.btn-primary{
+      padding:3px 6px ;
+      font-size:14px
+
+   }
+
+  }
+

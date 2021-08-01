@@ -1,0 +1,444 @@
+/* LOGIN ADMIN */
+/* NAVBAR */
+  .navbar-nav--menu {
+    margin-top: 20px;
+  }
+  
+  .navbar-nav--menu .nav-item a.nav-link {
+    font-weight: bold;
+    color: #282828;
+    transition: all 0.5s;
+  }
+  
+  .nav-item__line {
+    width: 0%;
+    height: 3px;
+    background-color: #00cbff;
+    transition: all 0.3s;
+  }
+  
+  .navbar-nav--menu .nav-item:hover>a.nav-link {
+    color: #00cbff;
+  }
+  
+  .navbar-nav--menu .nav-item:hover>.nav-item__line {
+    width: 100%;
+  }
+  
+  .navbar-nav--menu .nav-item {
+    margin-left: 20px;
+  }
+  
+  .navbar-nav--menu .active a.nav-link {
+    color: #00cbff !important;
+  }
+  
+  .navbar-nav--menu .active .nav-item__line {
+    width: 100%;
+  }
+/* QUáº¢N LÃ� Há»˜ KHáº¨U */
+.qlhk input{
+    margin-bottom:10px;
+}
+ .text_title h1{
+    color:#00cbff;
+    font-size: 50px;
+}
+ .text_title h3{
+    color:#00cbff;
+    font-size: 25px;
+}
+.qlhk .text_title .search input{
+    width: 90%;
+    margin-top: 10px;
+}
+.qlhk .text_title .searh .b-search{
+    margin-right: 10px;
+    margin-bottom: 50px;
+}
+.qlhk .QLHK_title {
+    font-weight: bold;
+    color :#00cbff;
+    text-align: center  ;
+}
+.qlhk .QLHK_detail .row{
+    background-color: #e6e6ea;
+}
+.qlhk .QLHK_detail .row input{
+    font-size:14px;
+}
+
+/* THÃ”NG TIN NHÃ‚N KHáº¨U */
+.ttnk .ttc p{
+    font-size:15px;
+    font-weight:bold;
+    margin-bottom: 0px;
+    color:#00cbff;
+}
+.ttnk .ttc span{
+    font-size:14px;
+    font-weight:500;
+
+    display:inline-block;
+    width:100%;
+    height: 30px;
+    text-align:left;
+    padding-left: 10px;
+    line-height:30px
+}
+.ttnk .ttc .img__personal{
+    width:200px;
+    height: 260px;
+}
+.ttnk .nhankhau__title h1 {
+    color: #00cbff;
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: 0.5px;
+  }
+textarea{
+    resize: none;
+}
+a.view_cmnd{
+    margin-top: 23px;
+}
+
+/* CHá»¨NG MINH NHÃ‚N DÃ‚N */
+.view_cmnd_detail{
+    border: 2px solid green;
+    padding:20px;
+    width:70%;
+    margin-left: 50%;
+    transform:translateX(-50%);
+    background-color: #a2baa9;
+}
+.view_cmnd_detail .star{
+    width: 80px;
+    height: 80px;
+    margin-left: 50%;
+    transform:translateX(-50%);
+   
+
+}
+.view_cmnd_detail .img_profile{
+    width: 170px;
+    height: 200px;
+    margin: auto;
+}
+.view_cmnd_detail .cmnd_text_title h4{
+    font-size:20px
+}
+.view_cmnd_detail .cmnd_text_title h5{
+    font-size:18px
+}
+.view_cmnd_detail .cmnd_text_title h2{
+    font-size:25px;
+    margin-top:10px;
+    color:rgb(214, 18, 18); 
+}
+.view_cmnd_detail .cmnd_text_title p.text_number{
+    font-size:19px;
+    font-weight:bold
+}
+.cmnd_text_detail{
+    padding-left:50px;
+}
+.view_cmnd_detail .cmnd_text_title p{
+    
+    font-size:15px;
+}
+.view_cmnd_detail .cmnd_text_title p span{
+    
+    font-size:18px;
+    font-weight: bold;
+}
+
+.btn-edit{
+    width:100%;
+    display:flex;
+
+}
+.btn-edit button{
+    width:20%;
+}
+
+
+/* =====táº¡o chÆ° quay dá»�c======= */
+.outer {
+
+    width: 100px;
+    position: relative;
+    display: inline-block;
+    margin: 50px 0px;
+    
+  }
+  
+  .inner {
+    font-size: 12px;
+    font-weight:bold;
+    font-color: #3b3a3a;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #a2baa900;
+  }
+  
+  .rotate {
+      -moz-transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+    -webkit-transform: translateX(-50%) translateY(-50%) rotate(-90deg);
+    transform:  translateX(-50%) translateY(-50%) rotate(-90deg);
+  }
+
+  /* =======vÃ¢n tay======= */
+  .vantay img{
+      width:100%;
+      height: 50%;
+
+  }
+  .vantay1 img{
+      width:100%;
+      height: 100%;
+
+  }
+/* MEDIA QUERY */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .qlhk input{
+        width: 100%;
+    }
+    .ttnk .ttc .img__personal{
+        width:170px;
+        height: 230px;
+    }
+    .ttnk .nhankhau__title h1 {
+
+        font-size: 35px;
+      }
+      .ttnk .ttc p{
+        font-size:13px;
+    }
+    .ttnk .ttc span{
+        font-size:12px;
+    }
+    /* CMND */
+    .view_cmnd_detail{
+        border: 2px solid green;
+        padding:20px;
+        width:90%;
+        margin-left: 50%;
+        transform:translateX(-50%);
+        background-color: #a2baa9;
+    }
+    
+
+   }
+  
+
+@media screen and (min-width: 992px) {
+    .qlhk input{
+       width: 100%;
+   }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .qlhk input{
+        width: 100%;
+    }
+    .qlhk .text_title .search input{
+        width: 80%;
+        margin-top: 10px;
+    }
+     /* CMND */
+     .view_cmnd_detail{
+        border: 2px solid green;
+        padding:15px;
+        width:100%;
+        margin-left: 50%;
+        transform:translateX(-50%);
+        background-color: #a2baa9;
+    }
+    .view_cmnd_detail .star{
+        width: 70px;
+        height: 70px;
+        margin-left: 50%;
+        transform:translateX(-50%);
+    }
+    .view_cmnd_detail .img_profile{
+        width: 150px;
+        height: 190px;
+        margin: auto;
+    }
+    .view_cmnd_detail .cmnd_text_title h4{
+        font-size:18px
+    }
+    .view_cmnd_detail .cmnd_text_title h5{
+        font-size:16px
+    }
+    .view_cmnd_detail .cmnd_text_title h2{
+        font-size:20px;
+        margin-top:10px;
+        color:rgb(214, 18, 18); 
+    }
+    .view_cmnd_detail .cmnd_text_title p.text_number{
+        font-size:18px;
+        font-weight:bold
+    }
+    .cmnd_text_detail{
+        padding-left:20px;
+    }
+    .view_cmnd_detail .cmnd_text_title p{
+        
+        font-size:14px;
+    }
+    .view_cmnd_detail .cmnd_text_title p span{
+        
+        font-size:16px;
+        font-weight: bold;
+    }
+  
+  }
+  
+  @media screen and (max-width: 410px) {
+    .qlhk input{
+        width: 100%;
+    }
+    /* CMND */
+    .view_cmnd_detail{
+        border: 2px solid green;
+        padding:5px;
+        width:100%;
+        margin-left: 50%;
+        transform:translateX(-50%);
+        background-color: #a2baa9;
+    }
+    .view_cmnd_detail .star{
+        width: 40px;
+        height: 40px;
+        margin-left: 50%;
+        transform:translateX(-50%);
+    }
+    .view_cmnd_detail .img_profile{
+        width: 140px;
+        height: 120px;
+        margin: auto;
+    }
+    .cmnd_text_title{
+        padding-left:0;
+        padding-right: 0;
+    }
+    .view_cmnd_detail .cmnd_text_title h4{
+        font-size:10px;
+    }
+    .view_cmnd_detail .cmnd_text_title h5{
+        font-size:10px
+    }
+    .view_cmnd_detail .cmnd_text_title h2{
+        font-size:16px;
+        margin-top:5px;
+        color:rgb(214, 18, 18); 
+    }
+    .view_cmnd_detail .cmnd_text_title p.text_number{
+        font-size:15px;
+        font-weight:bold
+    }
+    .cmnd_text_detail{
+        padding-left:0px;
+    }
+    .view_cmnd_detail .cmnd_text_title p{
+        
+        font-size:12px;
+    }
+    .view_cmnd_detail .cmnd_text_title p span{
+        font-size:13px;
+        font-weight: bold;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .qlhk input{
+        width: 100%;
+    }
+    .qlhk .text_title .search input{
+        width: 70%;
+        margin-top: 10px;
+    }
+    .ttnk .ttc .img__personal{
+        width:150px;
+        height: 200px;
+        margin: auto;
+    }
+    .ttnk .nhankhau__title h1 {
+        font-size: 25px;
+      }
+      .ttnk .ttc p{
+        font-size:12px;
+    }
+    .ttnk .ttc span{
+        font-size:11px;
+    }
+     /* CMND */
+     .view_cmnd_detail{
+        border: 2px solid green;
+        padding:10px;
+        width:100%;
+        margin-left: 50%;
+        transform:translateX(-50%);
+        background-color: #a2baa9;
+    }
+    .view_cmnd_detail .star{
+        width: 40px;
+        height: 40px;
+        margin-left: 50%;
+        transform:translateX(-50%);
+    }
+    .view_cmnd_detail .img_profile{
+        width: 160px;
+        height: 140px;
+        margin: auto;
+    }
+    .view_cmnd_detail .cmnd_text_title h4{
+        font-size:14px
+    }
+    .view_cmnd_detail .cmnd_text_title h5{
+        font-size:12px
+    }
+    .view_cmnd_detail .cmnd_text_title h2{
+        font-size:16px;
+        margin-top:5px;
+        color:rgb(214, 18, 18); 
+    }
+    .view_cmnd_detail .cmnd_text_title p.text_number{
+        font-size:15px;
+        font-weight:bold
+    }
+    .cmnd_text_detail{
+        padding-left:0px;
+    }
+    .view_cmnd_detail .cmnd_text_title p{
+        
+        font-size:12px;
+    }
+    .view_cmnd_detail .cmnd_text_title p span{
+        font-size:13px;
+        font-weight: bold;
+    }
+  }
+  
+  @media screen and (min-width: 576px) and (max-width: 768px) {
+    .qlhk input{
+        width: 100%;
+    }
+    .ttnk .ttc .img__personal{
+        width:120px;
+        height: 160px;
+    }
+    .ttnk .nhankhau__title h1 {
+        font-size: 30px;
+      }
+      .ttnk .ttc p{
+        font-size:12px;
+    }
+    .ttnk .ttc span{
+        font-size:12px;
+    }
+  }
+

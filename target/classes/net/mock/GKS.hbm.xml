@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Oct 17, 2015 11:44:47 AM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+
+	<class name="net.mock.entity.GKSEntity" table="gks">
+
+		<id name="soGKS" type="java.lang.String">
+			<column name="sogks" />
+		</id>
+		<property name="ten" type="java.lang.String">
+			<column name="ten" />
+		</property>
+		<property name="gioiTinh" type="java.lang.String">
+			<column name="gioitinh" />
+		</property>
+		<property name="quocTich" type="java.lang.String">
+			<column name="quoctich" />
+		</property>
+		<property name="queQuan" type="java.lang.String">
+			<column name="quequan" />
+		</property>
+		<property name="noiSinh" type="java.lang.String">
+			<column name="noisinh" />
+		</property>
+		<property name="tenNguoiLamGiay" type="java.lang.String">
+			<column name="tennguoilamgiay" />
+		</property>
+		<property name="noiLamGKS" type="java.lang.String">
+			<column name="noilamgks" />
+		</property>
+		<property name="trangThai" type="java.lang.String">
+			<column name="trangthai" />
+		</property>
+		<property name="id_cha" type="java.lang.String">
+			<column name="id_cha" />
+		</property>
+		<property name="id_me" type="java.lang.String">
+			<column name="id_me" />
+		</property>
+
+		<property name="ngayLamGKS" type="date">
+			<column name="ngaylamgks" />
+		</property>
+		<property name="ngaySinh" type="date">
+			<column name="ngaysinh" />
+		</property>
+
+	</class>
+</hibernate-mapping>

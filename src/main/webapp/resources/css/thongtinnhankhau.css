@@ -1,0 +1,82 @@
+.ttnk .ttc p{
+    font-size:15px;
+    font-weight:bold;
+    margin-bottom: 0px;
+    color:#00cbff;
+}
+.ttnk .ttc span{
+    font-size:14px;
+    font-weight:500;
+
+    display:inline-block;
+    width:100%;
+    height: 30px;
+    text-align:left;
+    padding-left: 10px;
+    line-height:30px
+}
+.ttnk .ttc .img__personal{
+    width:200px;
+    height: 260px;
+}
+.ttnk .nhankhau__title h1 {
+    color: #00cbff;
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: 0.5px;
+  }
+    /* MEDIA QUERY */
+  @media screen and (min-width: 576px) and (max-width: 768px) {
+    .ttnk .ttc .img__personal{
+        width:120px;
+        height: 160px;
+    }
+    .ttnk .nhankhau__title h1 {
+        font-size: 30px;
+      }
+      .ttnk .ttc p{
+        font-size:12px;
+    }
+    .ttnk .ttc span{
+        font-size:12px;
+    }
+  }
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .ttnk .ttc .img__personal{
+        width:170px;
+        height: 230px;
+    }
+    .ttnk .nhankhau__title h1 {
+
+        font-size: 35px;
+      }
+      .ttnk .ttc p{
+        font-size:13px;
+    }
+    .ttnk .ttc span{
+        font-size:12px;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .ttnk .ttc .img__personal{
+        width:150px;
+        height: 200px;
+        margin: auto;
+    }
+    .ttnk .nhankhau__title h1 {
+        font-size: 25px;
+      }
+      .ttnk .ttc p{
+        font-size:12px;
+    }
+    .ttnk .ttc span{
+        font-size:11px;
+    }
+  }
+
+  
+  
+  
+  

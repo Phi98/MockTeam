@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>GOV HÒA HẢI</title>
+        <!-- LOGO TITLE -->
+        <link rel="shortcut icon" href="./images/logo.png" />
+        <!-- BOOTSTRAP 4 -->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <!-- FONTAWESOME -->
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <!-- MAIN CSS -->
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/tracuutt1.css">
+    </head>
+    <body>
+        <!--HEADER-->
+        <header id="header" class="py-2">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-7 header-left pt-2 text-md-left text-center">
+                        <i class="fa fa-phone"></i>
+                        <span class="mr-3">(+84.236) 3.893.777</span>
+                        <i class="fa fa-envelope-o"></i>
+                        <span>toasoan@hoahainhs.gov.vn</span>
+                    </div>
+                    <div class="col-md-5 header-right text-right text-md-right text-center mt-md-0 mt-2">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--NAVBAR-->
+        <nav class="navbar navbar-expand-md navbar-light ">
+            <div class="container ">
+                <a class="navbar-brand navbar-brand--logo text-center" href="index.html">
+                    <h1 class="mb-0 ">
+                        <li class="fa fa-globe"></li>
+                        HÒA HẢI
+                    </h1>
+                    <p>Tra cứu & thông báo & dịch vụ </p>
+                </a>
+                <button class="navbar-toggler buttonMenu" data-toggle="collapse" data-target="#myMenu">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="myMenu">
+                    <ul class="navbar-nav ml-auto navbar-nav--menu">
+                        <!-- click vào trang nào thêm class active vào trang đó -->
+                        <li class="nav-item ">
+                            <a class="nav-link" href="index.html">TRANG CHỦ</a>
+                            <div class="nav-item__line"></div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">TIN TỨC</a>
+                            <div class="nav-item__line"></div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">THỦ TỤC</a>
+                            <div class="nav-item__line"></div>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link " href="thudientu.html">THƯ ĐIỆN TỬ</a>
+                            <div class="nav-item__line"></div>
+                        </li>
+                        <li class="nav-item  active">
+                            <a class="nav-link" data-toggle="modal"
+                                data-target="#modal-carousel" href="#">TRA CỨU & GỬI TIẾP NHẬN</a>
+                            <div class="nav-item__line"></div>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#">LỊCH CÔNG TÁC</a>
+                            <div class="nav-item__line"></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- MODAL POPUP -->
+        <div class="modal fade " id="modal-carousel">
+            <div class="modal-dialog">
+                <div class="modal-content modal-header--carousel">
+                    <div class="modal-header ">
+                        <h1>TRA CỨU THÔNG TIN</h1>
+                        <button class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="SHK">SỐ SỔ HỘ KHẨU</label>
+                                <input type="text" placeholder="571165490" class="form-control " id="SHK">
+                                <div class="invalid-feedback">
+                                    Số sổ hộ khẩu không tồn tại
+                                    <!-- báo lỗi cho người dùng khi dữ liệu khi invalid -->
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="cmndch">CMND CHỦ HỘ</label>
+                                <input type="text" class="form-control " placeholder="206067782" id="cmndch">
+                                <div class="invalid-feedback">
+                                    CMND  không tồn tại
+                                    <!-- báo lỗi cho người dùng khi dữ liệu khi invalid -->
+                                </div>
+                            </div>
+                            <!-- nếu check form thành công thêm class là is-valid để báo thành công ,nếu check form sai thêm class is-invalid vào để show ra lỗi -->
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button  type="submit" class="btn btn-primary btn-block">Tra Cứu Thông Tin</button>
+                        <button data-dismiss="modal" class="btn btn-secondary">Thoát</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- TRA CỨU THÔNG TIN -->
+        <!-- OFFER -->
+        <div class="container offer-section">
+            <div class="row mb-5">
+                <div class="col offer-title text-center">
+                    <h1>TRA CỨU THÔNG TIN VÀ GỬI HỒ SƠ XỬ LÝ</h1>
+                    <div class="start-title__line welcome-title__line mx-auto mt-3 mb-2 mb-sm-5"></div>
+                    <span >Vui lòng lựa chọn dịch vụ cung cấp </span>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-12 col-sm-6 ">
+                    <a href="hokhau.html">
+                        <div class="offer-item">
+                            <i class="fa fa-search"></i>
+                            <h3>TRA CỨU HỘ KHẨU</h3>
+                            <p>Tra cứu thông tin cụ thể của hộ khẩu,tra cứu thông tin chi tiết nhân khẩu trong sổ hộ khẩu</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 ">
+                    <a href="guihosotiepnhan.html">
+                        <div class="offer-item">
+                            <i class="fa fa-chevron-circle-up"></i>
+                            <h3>GỬI HỒ SƠ TIẾP NHẬN</h3>
+                            <p> Gửi hồ sơ tiếp nhận như : Sữa đổi thông tin cá nhân , báo cáo tạm trú , làm lại CMND , báo tử, Khai sinh...
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- FOOTER -->
+        <footer>
+            <div class="footer-detail">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 footer__about-us mb-3 mb-md-0">
+                            <h2>Giới thiệu</h2>
+                            <p>Giấy phép: 612/GP-STTTT cấp ngày 21 tháng 10 năm 2016 <br>
+                                Trưởng ban Ban biên tập: Lê Trung Chinh, Phó Chủ tịch UBND thành phố
+                            </p>
+                        </div>
+                        <div class="col-md-4 footer__news mb-3 mb-md-0">
+                            <h2>Website Các Đơn Vị</h2>
+                            <p>
+                                <i class="fa fa-long-arrow-right"></i>
+                                <span><a href="#">Sở Y Tế</a></span>
+                            </p>
+                            <p>
+                                <i class="fa fa-long-arrow-right"></i>
+                                <span><a href="#">Sở Nội Vụ</a></span>
+                            </p>
+                            <p>
+                                <i class="fa fa-long-arrow-right"></i>
+                                <span><a href="#">Sở Tư Pháp</a></span>
+                            </p>
+                            <p>
+                                <i class="fa fa-long-arrow-right"></i>
+                                <span><a href="#">Chi Cục Thuế</a></span>
+                            </p>
+                            <p>
+                                <i class="fa fa-long-arrow-right"></i>
+                                <span><a href="">Sở Xây Dựng</a></span>
+                            </p>
+                            <p>
+                                <i class="fa fa-long-arrow-right"></i>
+                                <span><a href="">Sở Tài Nguyên Và Môi Trường</a></span>
+                            </p>
+                        </div>
+                        <div class="col-md-4 footer__contact mb-3 mb-md-0">
+                            <h2>Liên Hệ</h2>
+                            <p>
+                                <i class="fa fa-map-marker"></i>
+                                <span>255 Ngũ Hành Sơn ,Hòa Hải,tp Đà Nẵng</span>
+                            </p>
+                            <p>
+                                <i class="fa fa-envelope-o"></i>
+                                <span>toasoan@hoahainhs.gov.vn</span>
+                            </p>
+                            <p>
+                                <i class="fa fa-phone"></i>
+                                <span>(+84.236) 3.893.777</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row footer__form mt-md-5 ">
+                        <div class="col-md-5 col-lg-4">
+                            <h2 class="text-left text-md-right">Nhận thông báo  qua Email</h2>
+                        </div>
+                        <div class="col-md-7 col-lg-">
+                            <input  type="email" name="email" placeholder="Vui lòng nhập địa chỉ Email">
+                            <button class="btn btn-footer-submit  text-white">GỬI </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copy-right py-3 text-center text-white">
+                <p class="mb-0">
+                    © 2020 COPY CONTENT BY https://danang.gov.vn | Design by <span> UBND HH-NHS-DN</span>
+                </p>
+            </div>
+        </footer>
+        <!-- ---------------------------THƯ VIỆN JQUERY & JAVASCRIPT----------------------------- -->
+        <!-- THƯ VIỆN JQUERY -->
+        <script src="js/jquery.min.js"></script>
+        <!-- THƯ VIỆN POPUP -->
+        <script src="js/popper.min.js"></script>
+        <!-- THƯ VIỆN BOOTSTRAP JS -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- THƯ VIỆN WAYPOINTS JQUERY -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    </body>
+</html>

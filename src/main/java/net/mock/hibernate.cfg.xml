@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+
+	<session-factory>
+		<property name="connection.driver_class">net.sourceforge.jtds.jdbc.Driver</property>
+		<property name="connection.url">jdbc:jtds:sqlserver://DESKTOP-KMNS09Q:1433/mockJAVA03</property>
+		<property name="connection.username">sa</property>
+		<property name="connection.password">123</property>
+	<property name="show_sql">true</property>
+		<property name="hibernate.dialect">org.hibernate.dialect.SQLServer2008Dialect</property>
+
+		<!-- Mapping Entity -->
+	<!--	 <mapping class="net.mock.entity.ToDanPhoEntity" />
+		<mapping resource="net/mock/ToDanPho.hbm.xml" /> -->
+
+	</session-factory>
+
+</hibernate-configuration>

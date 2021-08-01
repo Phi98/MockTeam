@@ -1,0 +1,118 @@
+.navbar-nav--menu .active a.nav-link {
+	color: #00cbff !important;
+  }
+  .navbar-nav--menu .active .nav-item__line {
+	width: 100%;
+  }
+.contact-section{
+	padding:4rem 15px;
+}
+.contact-title h1 {
+	color: #00cbff;
+	font-weight: 600	;
+	font-size: 45px;
+	letter-spacing: 0.5px;
+  }
+  .contact-title span {
+	font-size: 17px;
+	letter-spacing: 4px;
+	color: black;
+  }
+  .contact-content{
+	  min-height: 300px;
+  }
+  .contact-info__img{
+	  background:url("../images/g11.jpg") no-repeat ;
+	  background-size:cover
+  }
+  .contact-info{
+	  background-color:#0e0e0e;
+	  padding:2em;
+  }
+  .contact-info h3{
+	font-size: 1.4em;
+	font-weight:600;
+	letter-spacing: 1px;
+  }
+  .contact-info__detail{
+	  margin-bottom:30px
+  }
+  .contact-info__detail__item{
+	  width:50px;
+	  height: 50px;
+	  border: 2px solid #ddd;
+	  line-height:45px;
+	  color: white;
+	  text-align: center;
+	  margin-right: 15px;
+  }
+  .contact-info__detail__item i{
+	  font-size:20px;
+  }
+  .contact-info__detail h4{
+	  color: #00cbff;
+	  font-size:1em;
+	  font-weight: 600;
+
+  }
+  .contact-info__detail span{
+	  color: #cecaca;
+	  font-size:0.9em;
+	  line-height:1.8em;
+  }
+  .contact-info__social i{
+	  padding:8px 10px;
+	  background-color: #fff;
+	  transition:all 0.5s;
+	  cursor: pointer;
+  }
+.contact-facebook{
+	color: #3b5998;
+}
+.contact-facebook:hover{
+	background-color: #3b5998;
+	color: white
+}
+.contact-twitter{
+	color: #1da1f2;
+}
+.contact-twitter:hover{
+	background-color: #1da1f2;
+	color: white;
+}
+.contact-twitch{
+	color: #f26522;
+}
+.contact-twitch:hover{
+	background-color: #f26522;
+	color: white
+}
+.contact-form input,.contact-form textarea{
+	padding:14px;
+	border-radius: 0px;
+	background-color:#f5f5f5;
+
+}
+.btn-contact-submit{
+	padding-top: 10px;
+	padding-bottom:10px;
+	margin-top:12px;
+	background-color: #039ac0;
+	border-radius: 0px;
+	color: white;
+	cursor: pointer;
+	font-size:20px
+}
+.btn-contact-submit:hover{
+	background-color: #00cbff;
+}
+.contact-form textarea{
+	resize:none
+}
+.contact-map iframe{
+	width:100%;
+	min-height:400px ;
+}
+.footer-contact{
+	margin-top: -6px;
+}

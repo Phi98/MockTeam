@@ -1,0 +1,549 @@
+header {
+  background-color: #00cbff;
+  color: white;
+
+}
+
+.header-left i {
+  margin-right: 4px;
+}
+
+.header-right i {
+  font-size: 15px;
+  padding: 10px 10px;
+  background-color: #333;
+  margin-left: 5px;
+  border: 2px solid transparent;
+  transition: all 0.4s;
+  /* transparent : khÃ´ng cÃ³ mÃ u */
+}
+
+.header-right i:hover {
+  background-color: #00cbff;
+  border: 2px solid white;
+}
+
+
+/* NAVBAR */
+
+.navbar-brand--logo p {
+  color: #00cbff;
+  font-size: 0.8em;
+  margin-top: -5px;
+}
+
+.navbar-nav--menu {
+  margin-top: -30px;
+}
+
+.navbar-nav--menu .nav-item a.nav-link {
+  font-weight: bold;
+  color: #282828;
+  transition: all 0.5s;
+}
+
+.nav-item__line {
+  width: 0%;
+  height: 3px;
+  background-color: #00cbff;
+  transition: all 0.3s;
+}
+
+.navbar-nav--menu .nav-item:hover>a.nav-link {
+  color: #00cbff;
+}
+
+.navbar-nav--menu .nav-item:hover>.nav-item__line {
+  width: 100%;
+}
+
+.navbar-nav--menu .nav-item {
+  margin-left: 20px;
+}
+
+.navbar-nav--menu .active a.nav-link {
+  color: #00cbff !important;
+}
+
+.navbar-nav--menu .active .nav-item__line {
+  width: 100%;
+}
+
+
+/* CAROUSEL */
+
+.carousel-item img {
+  height: 650px;
+}
+
+.carousel-caption--config {
+  bottom: 32%;
+  width: 70%;
+  margin: auto;
+}
+
+.carousel-indicators--config {
+  bottom: 10%;
+}
+
+.btn--read-more {
+  border-radius: 0;
+  margin-top: 10px;
+}
+
+.btn--read-more:hover {
+  background-color: #00cbff;
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.carousel-caption--config h1 {
+  font-weight: normal;
+  font-size: 3.3em;
+  color: white;
+}
+
+.carousel-caption--config p {
+  font-size: 1.1em;
+  letter-spacing: 4px;
+  line-height: 1.8em;
+}
+
+.modal-header--carousel h1 {
+  color: #00cbff;
+}
+
+
+/* EDUCATION */
+
+.welcome-section {
+  padding: 3rem 15px;
+}
+
+.welcome-title h1 {
+  color: #00cbff;
+  font-weight: 600;
+  font-size: 40px;
+  letter-spacing: 0.5px;
+}
+
+.welcome-title span {
+  font-size: 17px;
+  letter-spacing: 4px;
+  font-weight: 500;
+  color: black;
+}
+
+.welcome-title__line {
+  width: 70px;
+  height: 3px;
+  background-color: black;
+}
+
+.welcome-title p {
+  font-size: 15px;
+  color: #999;
+  line-height: 1.8em;
+  padding: 0 10%;
+}
+
+.education-course i {
+  font-size: 30px;
+}
+
+.education-course h2 {
+  color: #00cbff;
+  font-weight: 600;
+  margin: 15px 0;
+}
+
+.education-course h3 {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.education-course p {
+  font-size: 15px;
+  color: #999;
+  line-height: 1.8em;
+}
+
+
+/* OUR STATS */
+
+.star-section {
+  min-height: 400px;
+  background-image: url("../images/thongke.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 3rem 15px;
+  /* cá»‘  Ä‘á»‹nh background khi láº¯n thanh trÆ°á»£t background khÃ´ng di chuyá»ƒn */
+}
+
+.start-title h1 {
+  color: #00cbff;
+  font-weight: 600;
+  font-size: 40px;
+  letter-spacing: 0.5px;
+}
+
+.start-title span {
+  font-size: 17px;
+  letter-spacing: 4px;
+  font-weight: 500;
+  color: white;
+}
+
+.start-detail {
+  color: white;
+  text-align: center;
+}
+
+.start-detail i {
+  font-size: 40px;
+}
+
+.start-detail h2 {
+  font-size: 25px;
+  color: #00cbff;
+  margin-top: 25px;
+}
+
+.start-detail p {
+  font-size: 45px;
+}
+
+
+/* OFFER  */
+
+.offer-section {
+  padding: 3rem 15px;
+}
+
+.offer-title h1 {
+  color: #00cbff;
+  font-weight: 600;
+  font-size: 40px;
+  letter-spacing: 0.5px;
+}
+
+.offer-title span {
+  font-size: 17px;
+  letter-spacing: 4px;
+  color: black;
+}
+
+.offer-item i {
+  font-size: 20px;
+  color: #00cbff;
+}
+
+
+/* .offer-item {
+-webkit-box-shadow: 0px 0px 2px 1px #aaa;
+-moz-box-shadow: 0px 0px 2px 1px #aaa;
+-o-box-shadow: 0px 0px 2px 1px #aaa;
+box-shadow: 0px 0px 2px 1px #aaa;
+padding: 2rem 1rem;
+margin-bottom: 30px;
+transition: all 0.5s;
+} */
+
+
+/* .offer-item:hover {
+background-color: #12ccc3;
+} */
+
+
+/* .offer-item h3 {
+font-size: 20px;
+color: black;
+margin: 20px 0;
+} */
+
+.offer-item p span a {
+  text-decoration: none;
+  color: #6b6b6b;
+  font-size: 20px;
+}
+
+.offer-item p span a:hover {
+  color: #00cbff;
+}
+
+
+/* NEW AND EVENT */
+
+.event-section {
+  padding: 3rem 15px;
+}
+
+.event-title h1 {
+  color: #00cbff;
+  font-weight: 600;
+  font-size: 40px;
+  letter-spacing: 0.5px;
+}
+
+.event-title span {
+  font-size: 17px;
+  letter-spacing: 4px;
+  color: black;
+}
+
+.event-img {
+  border: solid #dedede;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.event-info h2 {
+  font-size: 1.4em;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: black;
+}
+
+.event-info span {
+  font-size: 1em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #00cbff;
+}
+
+.event-info p {
+  font-size: 0.9em;
+  color: #999;
+  line-height: 1.8em;
+}
+
+.event-section-spacing {
+  height: 3rem;
+  width: 100%;
+}
+
+
+/* FOOTER  */
+
+.footer-detail {
+  background-color: #141415;
+  padding: 3rem 15px;
+}
+
+.footer-detail h2 {
+  color: #00cbff;
+  font-size: 1.5em;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.footer-detail p {
+  color: #8b8b96;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.footer__news p i {
+  color: #00cbff;
+  margin-right: 10px;
+}
+
+.footer__news span a {
+  color: #8b8b96;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.footer__news span a:hover {
+  color: #00cbff
+}
+
+.footer__contact i {
+  font-size: 15px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid #4b4b50;
+  color: white;
+}
+
+.footer__contact span {
+  margin-left: 10px;
+}
+
+.footer__form h2 {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.footer__form input {
+  height: 40px;
+  width: 70%;
+}
+
+.btn-footer-submit {
+  background-color: #00cbff;
+  border-radius: 0px;
+  height: 40px;
+  margin-top: -6px;
+  cursor: pointer;
+  transition: all 0.5s;
+  width: 25%;
+}
+
+.btn-footer-submit:hover {
+  background-color: #ec1955;
+}
+
+.copy-right {
+  background-color: #0f0f10;
+}
+
+.copy-right p span {
+  color: #00cbff;
+}
+
+
+/* MEDIA QUERY */
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .navbar-brand--logo h1 {
+      font-size: 28px;
+  }
+  .navbar-nav--menu .nav-item a.nav-link {
+      font-size: 0.9em;
+  }
+  .navbar-nav--menu .nav-item {
+      margin-left: 10px;
+  }
+  .carousel-caption--config {
+      bottom: 25%;
+      width: 80%;
+      margin-left: -40px;
+  }
+  .carousel-indicators--config {
+      bottom: 10%;
+  }
+  .carousel-caption--config h1 {
+      font-weight: normal;
+      font-size: 3em;
+  }
+  .carousel-caption--config p {
+      font-size: 1.2em;
+      letter-spacing: 3px;
+      line-height: 1.8em;
+      margin-bottom: 0;
+  }
+  .btn--read-more {
+      border-radius: 0;
+  }
+  .footer__form h2 {
+      font-size: 1.4em;
+  }
+  .carousel-item img {
+      height: 500px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-nav--menu .nav-item {
+      text-align: center;
+  }
+  .buttonMenu {
+      margin-top: -30px;
+  }
+  .education-course h2 {
+      font-size: 25px;
+  }
+  .carousel-item img {
+      height: 400px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .buttonMenu {
+      margin-bottom: 22px;
+  }
+  .carousel-item img {
+      height: 250px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .carousel-caption--config {
+      bottom: 17%;
+      width: 80%;
+      margin-left: -20px;
+  }
+  .carousel-indicators--config {
+      bottom: 0%;
+  }
+  .carousel-caption--config h1 {
+      font-weight: normal;
+      font-size: 1.5em;
+  }
+  .carousel-caption--config p {
+      font-size: 0.7em;
+      letter-spacing: 2px;
+      line-height: 1.3em;
+      margin-bottom: 0;
+  }
+  .btn--read-more {
+      border-radius: 0;
+      margin-bottom: -20px;
+  }
+  /*education*/
+  .welcome-title p {
+      font-size: 13px;
+      color: #999;
+      line-height: 1.5em;
+      padding: 0 5%;
+  }
+  .event-img {
+      border: solid #dedede;
+      padding-left: 0;
+      padding-right: 0;
+      margin-bottom: 10px;
+  }
+  .event-section-spacing {
+      height: 1rem;
+  }
+  .carousel-item img {
+      height: 300px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .carousel-caption--config {
+      bottom: 20%;
+      width: 80%;
+      margin-left: -30px;
+  }
+  .carousel-indicators--config {
+      bottom: 10%;
+  }
+  .carousel-caption--config h1 {
+      font-weight: normal;
+      font-size: 2.2em;
+  }
+  .carousel-caption--config p {
+      font-size: 1em;
+      letter-spacing: 2px;
+      line-height: 1.8em;
+      margin-bottom: 0;
+  }
+  .btn--read-more {
+      border-radius: 0;
+  }
+h1.khaisinh__title{
+    color: #00cbff!important;
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: 0.5px;
+ }
+ h1.qtht__title{
+ color: red!important;
+ }

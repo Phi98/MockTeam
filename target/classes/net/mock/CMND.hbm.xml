@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Oct 17, 2015 11:44:47 AM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+  
+     <class name="net.mock.entity.CMNDEntity" table="cmnd">
+  
+        <id name="soCMND" type="java.lang.String">
+            <column name="socmnd" />
+        </id>
+ 		<property name="ngayCapCMND" type="date" >
+ 		            <column name="ngaycapcmnd" />
+        </property>
+        	<property name="tenCMND" type="java.lang.String" >
+ 		            <column name="tencmnd" />
+        </property>
+        <property name="danToc" type="java.lang.String" >
+ 		            <column name="dantoc" />
+        </property>
+        <property name="tonGiao" type="java.lang.String" >
+ 		            <column name="tongiao" />
+        </property>
+        <property name="noiLamCMND" type="java.lang.String" >
+ 		            <column name="noilamcmnd" />
+        </property>
+           <property name="note" type="java.lang.String" >
+ 		            <column name="note" />
+        </property>
+           <property name="anh" type="java.lang.String" >
+ 		            <column name="anh" />
+        </property>
+           <property name="gvt1" type="java.lang.String" >
+ 		            <column name="gvt1" />
+        </property>
+          <property name="gvt2" type="java.lang.String" >
+ 		            <column name="gvt2" />
+        </property>
+            <many-to-one name = "soGKS" column = "sogks" 
+         class="net.mock.entity.GKSEntity" not-null="false"/>
+    </class>
+</hibernate-mapping>

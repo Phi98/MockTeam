@@ -1,0 +1,19 @@
+/* TRẠNG THÁI TIẾP NHẬN */
+.tttn__title{
+    color: #00cbff;
+      font-weight: 600;
+      font-size: 40px;
+      letter-spacing: 0.5px;
+  }
+  .tttn .table tr th{
+    color: #00cbff;
+  }
+  .tttn__search input{
+      width:90%!important;
+  }
+  @media screen and (max-width: 538px) {
+    .tttn__search input{
+        width:80%!important;
+    }
+  }
+  

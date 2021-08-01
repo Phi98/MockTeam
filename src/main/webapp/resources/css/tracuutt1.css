@@ -1,0 +1,47 @@
+/* OFFER  */
+.offer-section {
+    padding: 3rem 15px;
+  }
+  .offer-title h1 {
+    color: #00cbff;
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: 0.5px;
+  }
+  .offer-title span {
+    font-size: 17px;
+    letter-spacing: 4px;
+    color: black;
+  }
+  .offer-section a{
+      text-decoration: none;
+  }
+  .offer-item i {
+    font-size: 30px;
+    color: #00cbff;
+  }
+  .offer-item:hover>  i{
+      color: white;
+  }
+  .offer-item {
+    -webkit-box-shadow: 0px 0px 2px 1px #aaa;
+    -moz-box-shadow: 0px 0px 2px 1px #aaa;
+    -o-box-shadow: 0px 0px 2px 1px #aaa;
+    box-shadow: 0px 0px 2px 1px #aaa;
+    padding: 2rem 1rem;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+  } 
+   .offer-item:hover {
+    background-color: #12ccc3;
+  } 
+   .offer-item  h3 {
+    font-size: 20px;
+    color: black;
+    margin: 20px 0;
+  } 
+   .offer-item  p {
+    font-size: 16px;
+    color: black;
+    margin: 20px 0;
+  } 

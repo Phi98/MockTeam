@@ -1,0 +1,15 @@
+.tamtru__title {
+    font-size: 50px;
+    color: #00cbff;
+  }
+  .tamtru__content {
+    padding: 8px;
+    border: 2px solid #00cbff;
+    margin: 30px 0;
+  }
+  input.ip__kinhgui{
+      width:70%;
+  }
+  input.ip__a1{
+      width:90%;
+  }

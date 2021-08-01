@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Oct 17, 2015 11:44:47 AM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+   
+    <class name="net.mock.entity.CountREntity" table="countR">
+    
+        <id name="count" type="int">
+            <column name="countR" />
+            <generator class="identity" />
+        </id>
+        
+  
+    </class>
+    
+</hibernate-mapping>

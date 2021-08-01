@@ -1,0 +1,12 @@
+.nhankhau__title{
+	color: #00cbff;
+  font-weight:600;
+  font-size: 40px;
+  letter-spacing: 0.5px;
+}
+.border-item span{
+	padding-left: 2px;
+}
+a.btn{
+	outline: none
+}
